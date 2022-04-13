@@ -1,0 +1,91 @@
+:root {
+  /* isso aqui e uma variavel dentro do CSS */
+  --amarelo: #f4f80a;
+  --verde: #041f18;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* elementos base */
+body {
+  background: var(
+    --verde
+  ); /* aqui estamos usando a cor da variavel declarada no top */
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin: 5px;
+  margin-top: 0;
+  color: var(--amarelo);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+header nav a:hover {
+  color: #fff;
+}
+/*FilmePrincipal */
+.filmePrincipal{
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(74, 76, 83, 0.5)), url("/img/HarryPotter8.jpg"); /*esse gradiente cria uma camada para criar constraste entre o testo e a imagem */
+  height:400px;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+}
+.titulo{
+  margin: 15px;
+  margin-top: 20%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao{
+  margin-bottom: 80px;
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: white;
+  padding: 15px 30px; /* 1 valor sempre para os 4 cantos, 2 valores primeiro cima e baixo, segundo lado e outro */
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer; /* esse comando faz o mouse virar maozinha */
+  transition: .5s ease all; /* esse comando suaviza a passagem do mouse */
+}
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+.botao{
+  margin-right: 8px;
+}
+.box-filme{
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.link{
+  text-decoration: none;
+  color: rgb(150, 143, 143)
+}
