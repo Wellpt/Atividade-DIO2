@@ -1,7 +1,7 @@
 :root {
   /* isso aqui e uma variavel dentro do CSS */
-  --amarelo: #f4f80a;
-  --verde: #041f18;
+  --vermelho: #f81403;
+  --preta: black;
 }
 
 * {
@@ -12,7 +12,7 @@
 /* elementos base */
 body {
   background: var(
-    --verde
+    --preta
   ); /* aqui estamos usando a cor da variavel declarada no top */
   font-family: "Times New Roman", Times, serif;
   color: white;
@@ -27,7 +27,7 @@ header .container {
 header .logo {
   margin: 5px;
   margin-top: 0;
-  color: var(--amarelo);
+  color: var(--vermelho);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
 }
