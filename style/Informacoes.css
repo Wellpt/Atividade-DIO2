@@ -42,7 +42,7 @@ header .logo {
   /*FilmePrincipal */
   .filmePrincipal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url("/img/Informações.jpg"); /*esse gradiente cria uma camada para criar constraste entre o testo e a imagem */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url("./img/Informações.jpg"); /*esse gradiente cria uma camada para criar constraste entre o testo e a imagem */
     height:100%;
     background-size:cover;
     display: flex;
