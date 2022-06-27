@@ -9,6 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+#menuSuperior li {
+  display: inline;
+}
 /* elementos base */
 body {
   background: var(
@@ -42,7 +45,7 @@ header nav a:hover {
 /*FilmePrincipal */
 .filmePrincipal{
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(74, 76, 83, 0.5)), url("/img/HarryPotter8.jpg"); /*esse gradiente cria uma camada para criar constraste entre o testo e a imagem */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(74, 76, 83, 0.5)), url("/img/HarryPotter8.jpg"); /*esse gradiente cria uma camada para criar constraste entre o testo e a imagem */
   height:400px;
   background-size:cover;
   display: flex;
