@@ -1,4 +1,4 @@
 # - Praticando desenvolvimento WEB.
 
-### - Não entendi porque as imagens do backgroud so aparecem utilizando a extensão live serve do Visual code, quando o arquivo é aberto direto pelo navegador não aparecem. Estou aberto a sugestões! 
+### - acesse aqui https://wellpt.github.io/Atividade-DIO2/
 #### - Replicando netflix com nossas diferenças claro
